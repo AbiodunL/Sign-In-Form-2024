@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.form-section-container{
+    width: 90%;
+    height: auto;
+    background-color: white;
+    border: 1px solid #d7d7d7;
+    margin: 5rem auto;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 22rem 5rem 22rem;
+}
+
+.form{
+    /* background-color: #e3e3e3; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-form-section{
+    /* background-color: grey; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.brand-and-title-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.brand-image-container{
+    width: 64px;
+    height: 64px;
+}
+
+.brand-image-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.title-container{
+    width: fit-content;
+    height: auto;
+}
+
+.title-container h1{
+    font-size: 1.4rem;
+}
